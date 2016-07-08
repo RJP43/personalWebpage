@@ -13,9 +13,10 @@ div.bigBox{
 
 h1{
     color: #000000;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
 }
 h2{
     color: #000000;
@@ -34,24 +35,48 @@ h3{
 }
 p#resumeDL{
     text-align: center;
+    margin-top: 5px;
 }
 #heading{
     list-style-type: none;
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 5px;
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
     outline-style: dotted;
     outline-width: thick;
     outline-color: #97A3A1;
 }
+#headingIndex {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 90%;
+    border-radius: 8px;
+    outline-style: dotted;
+    outline-width: thick;
+    outline-color: #97A3A1;
+}
+ul#headingIndex li{
+    display: inline;
+    padding: 10px
+}
 ul#heading li{
     display: inline;
     padding: 10px
 }
-
+hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 ul.ext{
     list-style-type: square;
     margin: auto;
@@ -63,26 +88,29 @@ ul.int{
     margin-top: 0px;
     width: 75%;
 }
-
+div#image{
+    width: 30%;
+    margin: auto;
+}
 div#menu{
     margin: auto;
-    width: 70%;
-    border: 10px solid #B19994;
+    width: 15%;
+    text-align: center;
+    border: 5px solid #B19994;
     background-color: #ECBEB4;
-    padding: 15px;
-
+    padding: 5px;
 }
 div #foot{
+    width: 100%;
+    padding: 5px;
     margin: auto;
-    width: 70%;
-    border: 10px solid #B19994;
-    background-color: #ECBEB4;
-    padding: 15px;
+    text-align: center;
+    float: left
 }
 div.content{
     background-color: #FFFFFF;
     margin: auto;
-    width: 70%;
+    width: 80%;
     border-radius: 8px;
     outline-style: solid;
     outline-width: thick;
@@ -92,8 +120,7 @@ div.content{
 div#digiWork{
     background-color: #FFFFFF;
     margin: auto;
-    margin-top: 10%;
-    width: 70%;
+    width: 60%;
     border-radius: 8px;
     outline-style: solid;
     outline-width: thick;
@@ -102,7 +129,10 @@ div#digiWork{
     float: right;
 }
 div#image{
+    width: 30%;
     float: left;
+    margin: auto;
+    text-align: center;
 }
 div.content p{
     margin: auto;
@@ -155,3 +185,4 @@ a:hover{
     background-color: #000000;
     font-size: 16px;
 }
+/*https://coolors.co/f1dbd2-93928d-ecbeb4-b19994-6d6875*/
