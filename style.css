@@ -44,7 +44,7 @@ p#resumeDL{
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 5px;
-    width: 40%;
+    width: 50%;
     border-radius: 8px;
     outline-style: dotted;
     outline-width: thick;
@@ -92,11 +92,14 @@ div#image{
     width: 30%;
     margin: auto;
 }
+img{
+        border: 5px solid #6D6875;
+}
 div#menu{
     margin: auto;
-    width: 15%;
+    width: 20%;
     text-align: center;
-    border: 5px solid #B19994;
+    border: 5px solid #6D6875;
     background-color: #ECBEB4;
     padding: 5px;
 }
