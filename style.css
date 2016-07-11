@@ -4,6 +4,7 @@ html{
 }
 body{
     color: #000000;
+    font-size: 18px;
 }
 div.bigBox{
     width: auto;
@@ -50,7 +51,7 @@ p#resumeDL{
     outline-width: thick;
     outline-color: #97A3A1;
 }
-#headingIndex {
+#headingIndex{
     list-style-type: none;
     text-align: center;
     margin: auto;
@@ -93,7 +94,7 @@ div#image{
     margin: auto;
 }
 img{
-        border: 5px solid #6D6875;
+    border: 5px solid #6D6875;
 }
 div#menu{
     margin: auto;
@@ -174,18 +175,18 @@ i.name{
 
 a:link{
     text-decoration: none;
-    font-size: 16px;
+
     color: #5E2129;
 }
 a:visited{
     text-decoration: none;
     color: #6D6875;
-    font-size: 16px;
+
 }
 a:hover{
     text-decoration: none;
     color: #ECBEB4;
     background-color: #000000;
-    font-size: 16px;
+
 }
 /*https://coolors.co/f1dbd2-93928d-ecbeb4-b19994-6d6875*/
