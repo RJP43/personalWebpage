@@ -10,7 +10,7 @@ body{
 div.bigBox{
     width: auto;
     margin: auto;
-    padding: 10px;
+    padding: 50px;
 }
 
 h1{
@@ -209,3 +209,9 @@ a:hover{
 
 }
 /*https://coolors.co/f1dbd2-93928d-ecbeb4-b19994-6d6875*/
+
+/*TEST PAGE STYLING*/
+p.introP{
+   color: #0D324D;
+   font-size: 48px;
+}
