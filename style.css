@@ -195,7 +195,7 @@ a:link{
 }
 a:visited{
     text-decoration: none;
-    color: #6D6875;
+    /*color: #6D6875;*/
  /*   font-size: 18px;*/
 
 }
